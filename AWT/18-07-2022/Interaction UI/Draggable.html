@@ -1,0 +1,49 @@
+<html>
+   <head>
+      <title>Draggable</title>
+      <script type = "text/javascript" 
+         src = "https://www.tutorialspoint.com/jquery/jquery-3.6.0.js">
+      </script>
+		
+      <script type = "text/javascript" 
+         src = "https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js">
+      </script>
+		
+      <script type = "text/javascript" language = "javascript">
+   
+         $(function() {
+            $( "#draggable" ).draggable();
+         });
+		 
+      </script>
+		
+      <style>
+         #draggable { width: 150px; height: 150px; padding: 0.5em; }
+         .back{
+            background-color: lightgrey;
+            width: 100px;
+            height: 100px;
+            padding: 25px;
+            border: 1px solid navy;
+            margin: 25px;
+            cursor: pointer;
+            text-align: center;
+         }
+         h1{
+            text-align: center;
+         }
+         h3{
+            text-align: center;
+         }
+      </style>
+   </head>
+	
+   <body>
+    <h1>Interactions Using Jquery</h1>
+    <h3>Draggable</h3>
+      <div id = "draggable" class = "ui-widget-content">
+         <p class = "back">Drag me</p>
+      </div>
+	 
+   </body>
+</html>

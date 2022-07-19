@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>The val Method</title>
+        <script src=
+        "https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+        </script>
+         
+        <!-- jQuery code to show the working of this method -->
+        <script>
+            $(document).ready(function() {
+                $("button").click(function() {
+                    $("input:text").val("I am Jenil Patel");
+                    $("input:text").css("color", "green");
+                    $("input:text").css("font-size", "40px");
+                    $("input:text").css("font-weight", "bold");
+                    $("input:text").css("font-family", "times new roman");
+                });
+            });
+        </script>
+        <style>
+            div {
+                background-color: #333333;
+                padding: 20px;
+                width: 41%;
+                min-height: 150px;
+                border: 2px solid white;
+            }
+              
+            input {
+                border: 2px solid wheat;
+                padding-left: 15px;
+                width: 350px;
+                height: 80px;
+            }
+            h1{
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Val Function</h1>
+        <div>
+            <p>
+                <input type="text" name="user">
+            </p>
+            <!-- click on this paragraph and see the change -->
+            <button>Click Here!</button>
+        </div>
+    </body>
+</html>
